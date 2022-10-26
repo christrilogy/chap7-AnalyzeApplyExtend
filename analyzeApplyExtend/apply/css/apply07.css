@@ -1,7 +1,7 @@
 /*
-Author:
-Date:
-File Name:
+Author: Christian Morgan
+Date: 10/26/22
+File Name: apply07
 */
 
 /* CSS Reset */
@@ -87,13 +87,16 @@ footer {
 aside{
     grid-column: 1 / span 2;
   }
-
-
 }
 
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 1024px), print {
 
-
+  .grid{
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-column: 1 / span 4;
+  }
+  aside{
+    grid-column: 1 / span 4;
   }
 }
