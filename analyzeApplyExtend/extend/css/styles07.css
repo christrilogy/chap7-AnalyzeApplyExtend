@@ -1,7 +1,7 @@
 /*
-Author:
-Date:
-File Name: 
+Author: Christian Morgan
+Date: 10/26/22
+File Name: styles07
 */
 
 /* CSS Reset */
@@ -23,7 +23,7 @@ header {
 	background-color: #628c45;
 	color: #dfe7c4;
 	padding: 2%;
-    text-align: center;
+  text-align: center;
 }
 
 /* Style rules for main content  */
@@ -31,6 +31,13 @@ main {
 	background-color: #fff;
 }
 
+.column {
+  float: right;
+  width: 33.33%;
+}
+
+
+}
 aside {
     padding: 2%;
 }
